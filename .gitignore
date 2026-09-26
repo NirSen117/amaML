@@ -1,0 +1,41 @@
+# Dataset files stay private and are transferred to AWS separately.
+dataset/
+
+# Local environments and caches.
+.venv/
+__pycache__/
+**/__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Runtime/build artifacts.
+build/
+catboost_info/
+*.sqlite
+.blocking-*.sqlite
+.positive-keys-*.sqlite
+
+# Generated prediction outputs.
+output/*
+!output/.gitkeep
+
+# Keep the currently trained model available for deployment; ignore future artifacts.
+models/*
+!models/.gitkeep
+!models/pair_model.joblib
+
+# Local/editor/system files.
+.vscode/
+.DS_Store
+*.pyc
+*.pyo
+*.swp
+*.log
+
+# Credentials and local configuration.
+.env
+.env.*
+!.env.example
+*.pem
+*.key

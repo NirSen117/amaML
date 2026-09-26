@@ -1,0 +1,9 @@
+pandas==2.2.3
+numpy==2.1.3
+scikit-learn==1.5.2
+joblib==1.4.2
+jupyter==1.1.1
+nbformat==5.10.4
+# Optional: install catboost for CatBoost CPU/GPU training. Without it, the
+# pipeline automatically uses scikit-learn LogisticRegression.
+# catboost==1.2.7
