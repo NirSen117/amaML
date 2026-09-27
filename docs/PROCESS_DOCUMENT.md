@@ -123,7 +123,7 @@ subset of candidates.
 ## Section 20 — Evaluation methodology
 
 The challenge uses macro F_0.5 across Source 1 entities. Precision is weighted
-more heavily than recall, and correctly predicting an empty list for a singleton
+more heavily than recall, and correctly predicting an empty list for a singleton                                                                                                                                                                    
 receives full credit. Validation F_0.5: **To be measured during execution.**
 
 ## Section 21 — Reproducibility and operations

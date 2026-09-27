@@ -1,0 +1,13 @@
+[1mdiff --git a/docs/PROCESS_DOCUMENT.md b/docs/PROCESS_DOCUMENT.md[m
+[1mindex b3bbb3a..7f6e83a 100644[m
+[1m--- a/docs/PROCESS_DOCUMENT.md[m
+[1m+++ b/docs/PROCESS_DOCUMENT.md[m
+[36m@@ -123,7 +123,7 @@[m [msubset of candidates.[m
+ ## Section 20 — Evaluation methodology[m
+ [m
+ The challenge uses macro F_0.5 across Source 1 entities. Precision is weighted[m
+[31m-more heavily than recall, and correctly predicting an empty list for a singleton[m
+[32m+[m[32mmore heavily than recall, and correctly predicting an empty list for a singleton[m[41m                                                                                                                                                                    [m
+ receives full credit. Validation F_0.5: **To be measured during execution.**[m
+ [m
+ ## Section 21 — Reproducibility and operations[m
